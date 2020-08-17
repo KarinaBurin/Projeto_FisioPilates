@@ -1,2 +1,3 @@
 Projeto para aprendizado na prática, utilizando o Html5 e Css3.
- - Aqui utilizo a propriedade flexbox para as divs. 
+ - Em html é utilizado section para separar as seções, article para conteudo principal, aside para conteudo secundário.   
+ - No Css para organizações das divs, é utilizado flexbox com suas diferentes propriedades.
