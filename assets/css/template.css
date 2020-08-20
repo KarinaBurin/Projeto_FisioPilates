@@ -1,8 +1,7 @@
 body{
 	margin:0px;
 	padding:0px; 
-	font-family:caluna,courier,arial,;
-	margin-bottom: 300px;
+	font-family:caluna;
 }
 header{
 	display:flex;
@@ -13,7 +12,6 @@ header{
 	display:flex;
 	justify-content:space-between;
 	width:990px;
-	margin-top: 25px;
 	}
 .logo {
 	display:flex;
@@ -23,7 +21,6 @@ header{
 .menu{
 	display: flex;
 	justify-content:center;
-
 }
 nav ul,
 nav li{
@@ -161,12 +158,11 @@ nav a:hover {
 .flex{
 	display: flex;
 	flex-wrap: wrap;
-
 }
 article{
 	flex:1;
 	min-width: 300px;
-	padding: 5px;
+	margin-right: 20px;
 }
 article a{
 	text-decoration: none;
@@ -202,10 +198,76 @@ article .news_title{
 	font-weight: bold;
 }
 article .news_resume{
+	color:#5c5c5c;
 	font-size:14px;
 	line-height: 20px;
-	color:#5c5c5c;
-	margin-bottom:20px;
-	
+	margin-bottom:30px;
+}
+ footer {
+	display: flex;
+	justify-content:center;
+	background-color:#1e1e1e;
+}
+.footer_menu{
+	display: flex;
+}
+.fm_1, .fm_2, .fm_3{
+	flex: 1;
+	color: #ffffff;
+	padding: 20px;
+}
+/**
+.fm_1{
+	background-color: #83c9d8; 
+}
+.fm_2{
+	background-color: #57B6C7; 
+}
+.fm_3{
+	background-color: #3597ac; 
+}**/
+.footer_area{
+	display: flex;
+}
+.footer_areaitem{
+	flex: 1;
+	color:#ffffff;
+	margin-left: 20px;
+	margin-top: 0px;
+}
+.flexColumn{
+	flex-direction: column;
+}
+
+footer .widget_title_text{
+	color: #ffffff;
+}
+.footer_copy {
+	border-top: 1px solid #2c2c2c;
+	height: 40px;
+	line-height: 40px;
+	color: #5c5c5c;
+	font-size: 12px;
+	margin-top: 30px;
+}
+
+.forma_pagamento{
+	margin-top: 10px;
+	display: flex;
+}
+.fp{
+	margin-top: 5px;
+	padding: 5px;
+}
+.Redes_sociais{
+	margin-top: 10px;
+	display: flex;
+}
+.Redes_sociais a{
+	color:#ffffff;
+	text-decoration: none;
+}
+.Contato{
+	margin-top: 10px;
 
 }
