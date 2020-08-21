@@ -6,12 +6,13 @@ body{
 header{
 	display:flex;
 	justify-content:center;
-	height:120px;
+	height:100px;
 }
 .container{
 	display:flex;
 	justify-content:space-between;
 	width:990px;
+	margin-top: 15px;
 	}
 .logo {
 	display:flex;
@@ -242,15 +243,6 @@ article .news_resume{
 footer .widget_title_text{
 	color: #ffffff;
 }
-.footer_copy {
-	border-top: 1px solid #2c2c2c;
-	height: 40px;
-	line-height: 40px;
-	color: #5c5c5c;
-	font-size: 12px;
-	margin-top: 30px;
-}
-
 .forma_pagamento{
 	margin-top: 10px;
 	display: flex;
@@ -270,4 +262,59 @@ footer .widget_title_text{
 .Contato{
 	margin-top: 10px;
 
+}
+
+.footer_copy {
+	border-top: 1px solid #2c2c2c;
+	height: 40px;
+	line-height: 40px;
+	color: #5c5c5c;
+	font-size: 12px;
+	margin-top: 30px;
+}
+@media (max-width: 600px){
+	nav ul,
+	nav li{
+	font-size: 12px;
+	}
+	.banner_headline {
+		padding: 20px;
+	}
+	.banner_headline h1{
+		font-size: 50px;
+	}
+	.banner_headline h2{
+		font-size: 18px;
+	}
+	.banner_options{
+		height: auto;
+		flex-direction: column;
+		margin-top: 100px;
+	}
+	
+	#geral section{
+		margin-top: 300px;
+		flex-direction: column;
+		padding: 20px;
+	}
+	#geral aside{
+		margin-left: 20px;
+	}
+	.container{
+		flex-direction: column;
+	}
+	.logo{
+		justify-content: center;
+	}
+	.menu{
+		margin-top: 15px;
+	}
+	#banner{
+		margin-top: 60px;
+	}
+
+	.footer_copy{
+		margin-left: 20px;
+		margin-right: 20px;
+	}
 }
