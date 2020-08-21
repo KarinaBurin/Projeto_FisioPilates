@@ -263,7 +263,6 @@ footer .widget_title_text{
 	margin-top: 10px;
 
 }
-
 .footer_copy {
 	border-top: 1px solid #2c2c2c;
 	height: 40px;
@@ -272,11 +271,19 @@ footer .widget_title_text{
 	font-size: 12px;
 	margin-top: 30px;
 }
+.menuMobile{
+	display: none;
+	width: 40px;
+	height: 40px;
+	margin-top:20px;
+	margin-bottom: 40px;
+	margin-right: 20px;
+}
+.mm_line{
+	height: 3px;
+	background-color: #83c9d8;
+}
 @media (max-width: 600px){
-	nav ul,
-	nav li{
-	font-size: 12px;
-	}
 	.banner_headline {
 		padding: 20px;
 	}
@@ -291,7 +298,9 @@ footer .widget_title_text{
 		flex-direction: column;
 		margin-top: 100px;
 	}
-	
+	.container{
+		flex-direction: column;
+	}
 	#geral section{
 		margin-top: 300px;
 		flex-direction: column;
@@ -300,21 +309,34 @@ footer .widget_title_text{
 	#geral aside{
 		margin-left: 20px;
 	}
-	.container{
-		flex-direction: column;
-	}
-	.logo{
-		justify-content: center;
-	}
-	.menu{
-		margin-top: 15px;
-	}
-	#banner{
-		margin-top: 60px;
+	.footer_copy{
+		padding-left: 20px;
 	}
 
-	.footer_copy{
-		margin-left: 20px;
-		margin-right: 20px;
+	header .container{
+		flex-direction: row;
+	}
+
+	nav ul{
+		flex-direction: column;
+		display: none;
+		position: absolute;
+		left: 0;
+		width: 100%;
+		background-color: #ffffff;
+	}
+
+	header{
+		height: auto;
+	}
+
+	.logo{
+		padding: 10px;
+	}
+
+	.menuMobile{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
 	}
 }
